@@ -24,7 +24,7 @@ class AppiumDriver:
     __default_implicitly_wait = 10
 
     def __init__(self, app: str = None):
-        self.__app_caps = r"C:\Users\huangya1\Downloads\idcc-20230504\idcc.exe" ## Chinese, all pass, 测试时app打开后快速在任务管理器idcc.exe右键end task
+        self.__app_caps = r"C:\Users\huangya1\Downloads\idcc-20230504\idcc.exe" 
         self.initialize()
 
     def initialize(self) -> appium_webdriver:
